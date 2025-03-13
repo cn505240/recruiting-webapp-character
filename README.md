@@ -1,7 +1,6 @@
 # recruiting-webapp-character
 React coding test
 
-
 # Create a repository from this template
 - Click on `Use this template` dropdown on this repo page.
 - select `Create a new repository`
@@ -51,8 +50,6 @@ Character sheets are defined by the following high-level concepts
 - Attributes: This represents a character's raw abilities 
 - Attribute Modifier: calculated using the related Attribute, this value affects a character's skills
 - Skills: A character's ability to perform a specific action
-
-
 
 ## Requirements
 

@@ -1,4 +1,4 @@
-import type { Attributes, Class } from "./types";
+import type { Attribute, Attributes, Class } from "./types";
 
 export const ATTRIBUTE_LIST = [
     'Strength',
@@ -36,7 +36,7 @@ export const CLASS_LIST: Record<Class, Attributes> = {
     },
 }
 
-export const SKILL_LIST = [
+export const SKILL_LIST: Array<{ name: string, attributeModifier: Attribute }> = [
     { name: 'Acrobatics', attributeModifier: 'Dexterity' },
     { name: 'Animal Handling', attributeModifier: 'Wisdom' },
     { name: 'Arcana', attributeModifier: 'Intelligence' },
@@ -55,5 +55,4 @@ export const SKILL_LIST = [
     { name: 'Sleight of Hand', attributeModifier: 'Dexterity' },
     { name: 'Stealth', attributeModifier: 'Dexterity' },
     { name: 'Survival', attributeModifier: 'Wisdom' },
-
 ]
